@@ -22,21 +22,6 @@ El modelo simula el comportamiento de tres (3) cajeros automáticos independient
 * **Matplotlib:** Para el desarrollo de las librerías gráficas y visualización del estado estable.
 * **Scipy (scipy.stats):** Para el cálculo riguroso de Intervalos de Confianza del 95% mediante distribuciones t de Student.
 
-## 🚀 Instrucciones de Instalación y Ejecución
-
-### Prerrequisitos
-
-Asegúrate de tener instalado Python en tu sistema. Puedes instalar las librerías necesarias ejecutando el siguiente comando en tu terminal:
-
-```bash
-pip install numpy matplotlib scipy
-
-git clone https://github.com/CristianDZ29/centro_comercial_Supercentro_Simulacion
-
-También lo puedes ejecutar en google colab:
-https://colab.research.google.com/drive/12V2i3AK2lba04CGav_Ij2na2olE4aGqE#scrollTo=-KXuEWUaXcyb
-
-
 Estructura del Código
 El código está estructurado y documentado en 6 bloques lógicos principales para garantizar su fácil lectura y mantenimiento:
 
@@ -52,7 +37,19 @@ Gráfica de Validación M/M/1: Comparativa visual en barras que demuestra la con
 
 Análisis Estratégico: Resumen de las políticas operativas propuestas para la toma de decisiones del grupo de trabajo.
 
-📈 Conclusiones Clave del Estudio
+Conclusiones Clave del Estudio
 Suficiencia de Infraestructura: La configuración actual de 3 cajeros independientes es completamente SUFICIENTE. Al distribuirse el tráfico de manera equitativa, el factor de utilización real por cajero se sitúa en un cómodo 25.8%, lo que absorbe sin problemas la carga de los usuarios lentos.
 
 Estrategia Recomendada: Se propone implementar una Caja Express Especializada en la primera terminal para aislar al 25% de usuarios rápidos de atascos indeseados provocados por usuarios muy lentos, optimizando la experiencia del cliente sin costos extras de infraestructura física.
+
+### Prerrequisitos
+
+Asegúrate de tener instalado Python en tu sistema. Puedes instalar las librerías necesarias ejecutando el siguiente comando en tu terminal:
+
+```bash
+pip install numpy matplotlib scipy
+
+git clone https://github.com/CristianDZ29/centro_comercial_Supercentro_Simulacion
+
+También lo puedes ejecutar en google colab:
+https://colab.research.google.com/drive/12V2i3AK2lba04CGav_Ij2na2olE4aGqE#scrollTo=-KXuEWUaXcyb
